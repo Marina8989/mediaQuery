@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    margin: 10rem auto;
+    line-height: 32px;
+}
+
+@media (min-width: 69px) {
+     h1{
+         color: pink;
+     }
+     p{
+         color: green;
+     }
+}
+@media (min-width: 120px) {
+   h1{
+       color: yellow;
+   }
+   p{
+       color: purple;
+   }
+}
+@media (min-width: 400px) {
+   h1{
+       color: red;
+   }
+   p{
+       color: blue;
+   }
+}
+@media (min-width: 600px) {
+    h1{
+        color: orange;
+    }
+    p{
+        color: pink;
+    }
+}
+
+@media (min-width: 800px) {
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    h1, p{
+        color: green;
+    }
+}
